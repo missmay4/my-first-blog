@@ -5,21 +5,20 @@
         <body>
           <h1>Mi primera página web</h1>
           <h2>Mi primera pagina web con Djangogirls</h2>
-          <h3>PythonES2017</h3>
-            <p>Hi there!</p>
-            <p>It works!</p>
-
-            <em>Albóndigas</em>
-            <br />
-
-            <em>Patatas</em>
-
+          <h3>We Bare Bears</h3>
             <ul>
               <li>Grizzly</li>
               <li>Panda</li>
               <li>Ice bear</li>
             </ul>
 
+            {% for post in posts %}
+            <div>
+               <p>published: {{ post.published_date }}</p>
+               <h1><a href="">{{ post.title }}</a></h1>
+               <p>{{ post.text|linebreaksbr }}</p>
+           </div>
+    {% endfor %}
 
 
         </body>
