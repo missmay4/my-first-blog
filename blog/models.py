@@ -16,3 +16,9 @@ class Post(models.Model): #modelo del blog, cosas que hay dentro como autor, tit
 
     def __str__(self): #metodo para el nombre del blog
         return self.title
+
+class Comment(models.Model): #modelo de comentario en el post
+    author = models.ForeignKey('auth.User')
+    comment = models.TextField()
+    published_date = models.DateTimeField(
+            default=timezone.now)

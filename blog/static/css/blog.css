@@ -1,5 +1,5 @@
 h1 a {
-  color: #8e44ad;
+  color: #F39C12;
   font-family: 'Lobster';
 }
 
@@ -11,20 +11,23 @@ body {
         padding-left: 15px;
     }
 li {
-  color: #2ecc71;
+  color: #F9690E;
+}
+nav a{
+  margin-right: 16px;
 }
 
 .page-header {
-        /*background-color: #bdc3c7;*/
-        background-image: url('/static/WBB.jpg');
-        background-size: 50%; 
+        /*background-color: #E67E22;*/
+        background-image: url('/static/wbb1.jpg');
+        background-size: 650px;
 
         margin-top: 0;
         padding: 20px 20px 20px 40px;
     }
 
     .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-        color: #ffffff;
+        color: #000000;
         font-size: 36pt;
         text-decoration: none;
     }
@@ -51,7 +54,7 @@ li {
     }
 
     .top-menu, .top-menu:hover, .top-menu:visited {
-        color: #ffffff;
+        color: #F89406;
         float: right;
         font-size: 26pt;
         margin-right: 20px;
@@ -62,7 +65,7 @@ li {
     }
 
     .post h1 a, .post h1 a:visited {
-        color: #8e44ad;
+        color: #F39C12;
     }
     .post h3 b, .post h3 b:visited {
       color: #e67e22;
